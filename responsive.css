@@ -1,0 +1,68 @@
+@media screen and (max-width: 599px) {
+    ul {
+        font-size: 12px;
+    }
+
+    .our-mission {
+        left: 175px;
+    }
+
+    .statement > h4 {
+        font-size: 12px;
+        flex-shrink: 0.5;
+        text-align: center;
+    }
+
+    .tea-of-the-month {
+        left: 175px;
+    }
+
+    .month > h4 {
+        right: 130px;
+    }
+
+    span > p {
+        margin-top: 10px;
+    }
+
+    .locations {
+        height: 1273px;
+        background-size: cover;
+    }
+
+    .locations > h3 {
+        left: 114px;
+        color: slategrey;
+    }
+
+    div > .cities {
+        flex-wrap: wrap;
+        right: 95px;
+    }
+
+    footer > p {
+        text-align: center;
+    }
+    
+}
+
+@media screen and (max-width: 400px) {
+    ul { font-size: 11px; }
+
+    .locations > h3 { left: 98px; }
+
+    div > .cities { right: 112px; }
+}
+
+@media screen and (max-width: 375px) {
+
+    ul { font-size: 10px; }
+
+    .our-mission { left: 164px; }
+
+    .locations > h3 { left: 90px; }
+
+    div > .cities { right: 123px; }
+
+    .downtown, .bayside, .oakdale { width: 304px; }
+}

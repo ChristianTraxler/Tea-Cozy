@@ -2,6 +2,7 @@ body {
     background-color: black;
     color: seashell;
     font-size: 22px;
+    opacity: 0.5;
 }
 
 nav {
@@ -27,34 +28,172 @@ ul > li {
     text-decoration: underline;
 }
 
-section {
-    border: 2px solid red;
+ul > li > a {
+    text-decoration: none;
+    color: seashell;
+}
+
+.first-section {
     background-image: url("assets/mission-background.jpeg");
-    opacity: 0.9;
     margin: 0 36px;
-}
-
-div {
-    display: flex;
     height: 700px;
-    margin: auto;
+    /*border: 2px solid red;*/
 }
 
-h2 {
+.statement {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    position: relative;
+    top: 300px;
+}
+
+.our-mission {
     display: flex;
     align-items: center;
     margin: auto;
     position: relative;
-    left: 455px;
+    bottom: 25px;
+    left: 500px;
 }
 
 h4 {
-    margin: auto;
     position: relative;
     top: 50px;
     right: 95px;
 }
 
 div > h2, h4 {
+    height: 100px;
+    flex-shrink: 0;
+}
+
+.second-section {
+    position: relative;
+    top: 100px;
+    /*border: 2px solid yellow;*/
+}
+
+.month {
+    display: flex;
+    justify-content: center;
+}
+
+.tea-of-the-month {
+    position: relative;
+    left: 200px;
+}
+
+img[src*='berryblitz'], [src*='spiced-rum'], [src*='donut'], [src*='bedford'] {
+    width: 300px;
+    height: 200px;
+}
+
+.tea {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 22px;
+}
+
+div > p {
+    margin: 10px 0;
+    text-align: center;
+    font-weight: bold;
+}
+
+span > p {
+    text-align: center;
+    font-weight: bold;
+}
+
+.third-section {
+    position: relative;
+    top: 150px;
+}
+
+.locations {
+    background-image: url("assets/locations-background.jpeg");
+    display: flex;
+    margin: 0 36px;
+    top: 200px;
+    height: 573px;
+}
+
+.locations > h3 {
+    text-align: center;
+    position: relative;
+    top: 64px;
+    left: 500px;
+}
+
+span > div > h3 {
+    text-align: center;
+    position: relative;
+    top: 10px;
+}
+
+.downtown, .bayside, .oakdale {
+    justify-content: center;
     background-color: black;
+    position: relative;
+    width: 300px;
+    height: 250px;
+    top: 103px;
+    gap: 40px;
+    opacity: 1;
+}
+
+div > .cities {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    position: relative;
+    top: 15px;
+    right: 50px;
+}
+
+.address {
+    justify-content: center;
+    margin: auto;
+    width: 176px;
+    line-height: 3.2;
+    font-weight: normal;
+    font-size: 18px;
+}
+
+.downtown > p {
+    width: 127px;
+    position: relative;
+    top: 20px;
+}
+
+.bayside > p {
+    width: 220px;
+    position: relative;
+    top: 20px;
+}
+
+.oakdale > p {
+    position: relative;
+    top: 20px;
+}
+
+footer {
+    position: relative;
+    text-align: center;
+    top: 150px;
+    height: 200px;
+    line-height: 2.8;
+}
+
+footer > h5 > a {
+    text-decoration: none;
+    color: seashell;
+}
+
+footer > p {
+    text-align: left;
+    margin: 0 20px;
+    font-size: 16px;
 }
