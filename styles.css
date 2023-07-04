@@ -1,0 +1,60 @@
+body {
+    background-color: black;
+    color: seashell;
+    font-size: 22px;
+}
+
+nav {
+    display: flex;
+    margin: 5px 10px;
+}
+
+img[src*='tea-cozy'] {
+    height: 50px;
+    color: seashell;
+}
+
+ul {
+    display: inline-flex;
+    list-style-type: none;
+    margin-left: auto;
+    align-items: center;
+}
+
+ul > li {
+    margin: 0 10px;
+    color: seashell;
+    text-decoration: underline;
+}
+
+section {
+    border: 2px solid red;
+    background-image: url("assets/mission-background.jpeg");
+    opacity: 0.9;
+    margin: 0 36px;
+}
+
+div {
+    display: flex;
+    height: 700px;
+    margin: auto;
+}
+
+h2 {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    position: relative;
+    left: 455px;
+}
+
+h4 {
+    margin: auto;
+    position: relative;
+    top: 50px;
+    right: 95px;
+}
+
+div > h2, h4 {
+    background-color: black;
+}
