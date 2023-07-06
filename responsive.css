@@ -26,18 +26,18 @@
     }
 
     .locations {
-        height: 1273px;
+        height: 1065px;
         background-size: cover;
     }
 
     .locations > h3 {
-        left: 114px;
+        /*left: 114px;*/
         color: slategrey;
     }
 
     div > .cities {
         flex-wrap: wrap;
-        right: 95px;
+        /*right: 95px;*/
     }
 
     footer > p {
@@ -49,9 +49,9 @@
 @media screen and (max-width: 400px) {
     ul { font-size: 11px; }
 
-    .locations > h3 { left: 98px; }
+    /*.locations > h3 { left: 98px; }*/
 
-    div > .cities { right: 112px; }
+    /*div > .cities { right: 112px; }*/
 }
 
 @media screen and (max-width: 375px) {
@@ -60,9 +60,9 @@
 
     .our-mission { left: 164px; }
 
-    .locations > h3 { left: 90px; }
+    /*.locations > h3 { left: 90px; }*/
 
-    div > .cities { right: 123px; }
+    /*div > .cities { right: 123px; }*/
 
     .downtown, .bayside, .oakdale { width: 304px; }
 }
